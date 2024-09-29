@@ -1,0 +1,127 @@
+body{
+  background-color: black;
+}  
+
+#Pavan{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+  
+img.img-thumbnail{
+  max-width: 225px;
+  max-height: 225px;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+  
+#Intro{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 2.5rem;
+  color:white;
+}
+  
+@media (max-width: 1200px) {
+    #Intro{
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    #Intro{
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #Intro{
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #Intro{
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    #Intro{
+      font-size: 1.8rem ;
+    }
+}
+
+h1 span{
+  color: #007bff;
+  animation: colorChange 3s infinite alternate;
+}
+
+@keyframes colorChange {
+    0% {
+      color: #007bff;
+    }
+    50% {
+      color: #dc143c; 
+    }
+    100% {
+      color: #f39c12; 
+    }
+}
+
+.intro-container{
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+  
+p.text{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: white;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+  
+@media (max-width: 1200px) {
+  p.text {
+      font-size: 1.4rem;
+      line-height: 2;
+  }
+}
+
+@media (max-width: 992px) {
+  p.text {
+      font-size: 1.3rem;
+      line-height: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  p.text {
+      font-size: 1.25rem;
+      text-align:left;
+      line-height: 1.8;
+  }
+}
+
+@media (max-width: 576px) {
+  p.text {
+      font-size: 1.3rem;
+      text-align:left;
+      margin-left: 10px;
+      line-height: 1.8;
+  }
+}
+
+@media (max-width: 400px) {
+  p.text {
+      font-size: 1.15rem;
+      text-align:left;
+      margin-left: 10px;
+      line-height: 1.8;
+  }
+}
